@@ -8,7 +8,8 @@ from cvzone.HandTrackingModule import HandDetector
 from tkinter import ttk
 
 # Arduino setup
-port = 'COM3'
+# port = 'COM3'
+port = '/dev/ttyACM0'
 pin_x = 10  # Servo for X-axis
 # pin_y = 11  # Servo for Y-axis
 pin_z = 12  # Servo for Z-axis
